@@ -1,0 +1,109 @@
+/* ページ全体のリセット */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh; /* ページ全体の高さを設定 */
+    font-family: Arial, sans-serif;
+    background-image: url('img/haikei.png'); /* 背景画像のURLを設定 */
+    background-size: cover; /* 画像がページ全体にフィットするように */
+    background-position: center; /* 画像の中央をページの中央に配置 */
+    background-repeat: no-repeat; /* 背景画像の繰り返しを防止 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* 白文字にして背景とコントラストを出す */
+    text-align: center;
+}
+
+/* アンケートフォームのスタイル */
+form {
+    background-color: rgba(0, 0, 0, 0.7); /* 半透明の黒い背景でフォームを目立たせる */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="checkbox"] {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+button,
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #28a745; /* 明るい緑色 */
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #218838; /* ホバー時に少し濃い緑色 */
+}
+
+.btn {
+    color: white;
+}
+
+/* ログインフォームの特別なスタイル */
+.login-form {
+    background-color: rgba(255, 255, 255, 0.8); /* ログインフォーム専用の白背景 */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    width: 100%;
+    color: black;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    background-color: #f8f9fa; /* 入力フィールドの背景色 */
+    color: black; /* テキストの色を黒に */
+}
+
+.login-form input[type="submit"] {
+    background-color: #007bff; /* ログインボタンを青に */
+    color: white;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #0056b3; /* ログインボタンのホバー色 */
+}
+
