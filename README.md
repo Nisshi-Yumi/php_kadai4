@@ -4,8 +4,10 @@
 ②課題内容（どんな作品か）
 基本のログイン画面を加えたのみです。
 
-③DEMO
-[デプロイしている場合はURLを記入（任意）https://miho0805.github.io/kadai03_memo6/](https://team-gias.sakura.ne.jp/php_kadai4-1/)
+③ID:PW
+test1 
+test1
+
 
 ④作ったアプリケーション用のIDまたはPasswordがある場合
 
